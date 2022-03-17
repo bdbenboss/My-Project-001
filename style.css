@@ -1,0 +1,58 @@
+body {
+  background: #e8ffc2;
+  color: #12918F;
+  font-family:'Fredoka', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1 {
+  color:#070752;
+  font-family:'Fredoka', sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 24px;
+}
+
+h2 {
+  color:#0f0f8b;
+  font-family:'Fredoka', sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: solid;
+}
+
+.card-white {
+  padding: 40px;
+  background: white;
+  border: 1cm;
+  border-radius: 15%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
